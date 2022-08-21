@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import TypeWriter from 'react-typewriter';
 import capaLeticia from '../images/leticiaCapa.jpeg';
 import '../index.css';
+import '../App.css';
 
 class Login extends React.Component {
  
@@ -40,9 +42,12 @@ class Login extends React.Component {
           </section>
 
           <section>
-              <h1 className='hFrase'>
-              A arte é a expressão sublime da alma!
-              </h1>
+              <TypeWriter 
+              className='hFrase'
+              typing={1}
+              >
+              "A arte é a expressão sublime da alma!"
+              </TypeWriter>
           </section>
         
           
@@ -54,7 +59,7 @@ class Login extends React.Component {
               type="submit"
               data-testid="login-submit-button"
               onClick={ this.onSaveButtonClick }
-              className="buttonCapa"
+              className='buttonCapa bg-blue-900 p-3 w-1/3  mt-4 rounded-lg hover:bg-blue-500'
             >
               <p className='entrar'>Entrar</p>
             </button>

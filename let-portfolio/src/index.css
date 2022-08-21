@@ -60,7 +60,7 @@ top: 0%;
 font-family: 'Great Vibes', cursive;
 font-style: normal;
 font-weight: 400;
-font-size: 400%;
+font-size: 700%;
 line-height: 120px;
 display: flex;
 align-items: center;
@@ -117,7 +117,7 @@ box-sizing: border-box;
 position: absolute;
 width: 20%;
 height: 18%;
-left: 38%;
+left: 32%;
 top: 80%;
 
 background: #004CA9;
